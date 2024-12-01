@@ -1,7 +1,5 @@
-import {ABOUT_TEXT_1} from '../constants/index'
-import {ABOUT_TEXT_2} from '../constants/index'
-import {ABOUT_TEXT_3} from '../constants/index'
-import {motion} from "framer-motion"
+import { ABOUT_TEXT_1, ABOUT_TEXT_2, ABOUT_TEXT_3 } from '../constants/index';
+import { motion } from 'framer-motion';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0},
@@ -39,10 +37,19 @@ const About = () => {
           className="text-lg text-center">
            {ABOUT_TEXT_3}
           </motion.p>
+          <div className="flex space-x-4">
+            <a href="./Viraj_Resume_SDET.pdf" download="Viraj_Resume_SDET.pdf" className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in-out duration-300">
+              Software Developer Resume
+            </a>
+            <a href="./Viraj_Resume_Data_icon.pdf" download="Viraj_Resume_Data_icon.pdf" className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition ease-in-out duration-300">
+              Data Science Resume
+            </a>
+          </div>
         </div>
       </div>
     );
-  };
-  
-  export default About;
+};
+
+export default About;
+
   
