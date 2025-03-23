@@ -41,7 +41,7 @@ const About = () => {
             <a href="./Viraj_Resume_SDET.pdf" download="Viraj_Resume_SDET.pdf" className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in-out duration-300">
               Software Developer Resume
             </a>
-            <a href="./Viraj_Resume_Data_icon.pdf" download="Viraj_Resume_Data_icon.pdf" className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition ease-in-out duration-300">
+            <a href="./Viraj_Resume_Data.pdf" download="Viraj_Resume_Data.pdf" className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition ease-in-out duration-300">
               Data Science Resume
             </a>
           </div>
