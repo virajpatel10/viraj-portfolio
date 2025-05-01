@@ -12,9 +12,9 @@ export const ABOUT_TEXT_3 = `Outside of work, I enjoy exploring emerging technol
 export const EXPERIENCES = [
   {
     year: "Nov 2024 - Present",
-    role: "Data Engineer/ Data Analyst",
+    role: "Software Engineer",
     company: " iConsult Syracuse",
-    description: `Applied Python, ETL techniques, and data mining skills to process over 200,000 IoT data points daily. Optimized distributed workflows to reduce latency by 35% and designed dashboards integrating insights from 8+ sources for real-time city management.`,
+    description: `Developed and deployed scalable RESTful APIs with Node.js and Express, integrated them into AWS infrastructure, and achieved a 40% reduction in dashboard latency during high-traffic periods. Automated CI/CD pipelines using Docker, GitHub Actions, and AWS ECS, which streamlined the build–deploy process and decreased overall release-cycle duration by 30%. Enhanced overall system scalability by 35%, as demonstrated during simulated and real traffic spikes, through the integration of a React-based frontend with cloud-optimized backend services and AWS CloudWatch insights. Collaborated with a municipal agency to design and launch a real-time traffic-monitoring dashboard, improved data visualization, and contributed to a 25% boost in client-satisfaction scores through greater accuracy and usability.`,
     technologies: ["Python", "Data Processing", "ETL", "Data mining", "Data Analysis"],
   },
   {
@@ -26,7 +26,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jan 2023 - Jul 2023",
-    role: "Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "Oracle",
     description: `Streamlined testing for Jira/Confluence plug-ins using Python, REST APIs, and data analysis libraries like Pandas and Matplotlib. Reduced manual workload by 80% while validating 100+ Confluence pages and 70+ Jira tickets.`,
     technologies: ["SDLE", "Python", "Jira", "Confluence", "REST APIs", "Pandas", "Numpy" ,"Matplotlib", "Jupyter"],
