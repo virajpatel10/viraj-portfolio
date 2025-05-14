@@ -3,19 +3,23 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const MAIN_CONTENT = `I'm a software developer and data scientist. With a Master's in Computer Science from Syracuse University, I've exceled my skills in Python, Machine Learning, Data Analytics, and System Design. My academic and professional journey has been a rich mix of theory and practical application. This portfolio showcases the projects and experiences that have shaped my tech career.`;
+export const MAIN_CONTENT = `I'm Viraj Patel, a Software Engineer with a Master's in Computer Science from Syracuse University. With 3+ years of industry experience, I've built scalable, full-stack applications using Java, Python, Angular, and React. From crafting microservices to deploying cloud-native systems on AWS, my work blends clean code, performance, and reliability. This portfolio showcases the key projects and experiences that define my engineering journey.`;
 
-export const ABOUT_TEXT_1 = `I am a dedicated and versatile software engineer and data scientiest with a passion for solving complex problems and delivering impactful solutions. I have honed my expertise in data analytics, machine learning, and advanced database management, working extensively with technologies such as Python, Django, TensorFlow, AWS, and PostgreSQL.`;
-export const ABOUT_TEXT_2 = `My journey in technology began with a deep curiosity for innovation, which has evolved into a career focused on creating scalable systems, optimizing workflows, and leveraging cloud computing to drive efficiency. I thrive in collaborative environments where I can tackle challenges and continuously learn new skills.`
-export const ABOUT_TEXT_3 = `Outside of work, I enjoy exploring emerging technologies, automating processes, and contributing to impactful projects that combine data-driven insights with cutting-edge technology.`
+export const ABOUT_TEXT_1 = `I am a dedicated and versatile software engineer with a passion for solving complex problems and delivering impactful solutions. My expertise lies in data analytics, machine learning, and advanced database management, with hands-on experience in technologies like Java, Python, React, TensorFlow, AWS, and PostgreSQL.`
+export const ABOUT_TEXT_2 = `My journey in technology began with a deep curiosity for innovation, evolving into a career focused on building scalable systems, optimizing workflows, and leveraging cloud computing to enhance efficiency. I thrive in collaborative, fast-paced environments where continuous learning and problem-solving are at the core.`
+export const ABOUT_TEXT_3 = `Outside of work, I enjoy exploring emerging technologies, automating everyday tasks, and contributing to projects that bridge data-driven insights with real-world impact.`
 
 export const EXPERIENCES = [
   {
     year: "Nov 2024 - Present",
     role: "Software Engineer",
     company: " iConsult Syracuse",
-    description: `Developed and deployed scalable RESTful APIs with Node.js and Express, integrated them into AWS infrastructure, and achieved a 40% reduction in dashboard latency during high-traffic periods. Automated CI/CD pipelines using Docker, GitHub Actions, and AWS ECS, which streamlined the build–deploy process and decreased overall release-cycle duration by 30%. Enhanced overall system scalability by 35%, as demonstrated during simulated and real traffic spikes, through the integration of a React-based frontend with cloud-optimized backend services and AWS CloudWatch insights. Collaborated with a municipal agency to design and launch a real-time traffic-monitoring dashboard, improved data visualization, and contributed to a 25% boost in client-satisfaction scores through greater accuracy and usability.`,
-    technologies: ["Python", "Data Processing", "ETL", "Data mining", "Data Analysis"],
+    description: `Spearheaded full-stack development initiatives using Java, and Microservices, delivering modular applications that scaled efficiently across cloud-hosted environments.
+                  Developed dynamic, user-centric front-end interfaces with Angular and React.js, integrating responsive layouts and real-time interactions to elevate user engagement across devices.
+                  Implemented asynchronous data pipelines and service communication using Apache Kafka and RabbitMQ, increasing message throughput by 40% and reducing system response time by 30% for real-time operations.
+                  Integrated event-driven architectures using AWS Lambda and SQS, enhancing system responsiveness and decoupling microservices for improved maintainability.
+                  Directed code reviews and test automation with JUnit, Mockito, and Jenkins pipelines, reducing bugs by 35% and ensuring production-readiness through consistent integration checks.`,
+    technologies: ["Java", "React", "Apache Kafka", "RabbitMQ", "AWS Lambda", "AWS SQS"],
   },
   {
     year: "Aug 2024 - Present",
@@ -28,7 +32,10 @@ export const EXPERIENCES = [
     year: "Jan 2023 - Jul 2023",
     role: "Software Engineer Intern",
     company: "Oracle",
-    description: `Streamlined testing for Jira/Confluence plug-ins using Python, REST APIs, and data analysis libraries like Pandas and Matplotlib. Reduced manual workload by 80% while validating 100+ Confluence pages and 70+ Jira tickets.`,
+    description: `Built Python automation scripts to configure and test 30+ Jira/Confluence plugins, reducing repetitive manual tasks and increasing operational efficiency by 35%.
+                  Created and maintained 100+ Jira macros using custom JQL queries and version-controlled scripts, improving sprint planning accuracy and decreasing latency by 20%.
+                  Designed diagnostic scripts to audit plugin configurations and monitor system health, enabling early detection of misconfigurations and reducing QA manual checks by 30%.
+                  Implemented validation checks for 20 plugin features and embedded them in CI pipelines, identifying bugs pre-release and improving plugin uptime across production.`,
     technologies: ["SDLE", "Python", "Jira", "Confluence", "REST APIs", "Pandas", "Numpy" ,"Matplotlib", "Jupyter"],
   },
   {
@@ -38,6 +45,17 @@ export const EXPERIENCES = [
     description: `Built an Eye Gaze Estimation model using TensorFlow, Keras, and deep learning techniques, achieving 88% precision and reducing angular error to 3 degrees through model optimization.`,
     technologies: ["Python", "TensorFlow", "Keras", "Deep Learning", "JavaScript"],
   },
+  {
+    year: "Jan 2021 - Dec 2022",
+    role: "Software Engineer",
+    company: "CitiusTech",
+    description: `Collaborated in Agile teams using Jira and Confluence to plan sprints, manage epics, and document system designs, contributing to a transparent and delivery-focused development culture.
+                  Engineered backend services in Java using REST architecture to support key operations like audit trail logging, inventory updates, and financial reconciliation with strong data consistency guarantees.
+                  Developed and maintained scalable backend services using Node.js and Express.js, enhancing application performance and reducing response time by 30%.
+                  Leveraged AWS services like EC2, S3, Lambda, API Gateway, and DynamoDB to build and deploy cloud-native applications with high availability and fault tolerance.
+                  Streamlined backend logic with Servlet-based request handling and effective use of JSTL to separate business logic from view layers, improving maintainability and MVC compliance.`,
+    technologies: ["Java", "Node.JS", "Express.JS", "AWS", "AWS s3", "AWS Dynamodb", "AWS EC2", "AWS API Gateway"],
+  }
 ];
 
 export const PROJECTS = [

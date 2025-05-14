@@ -12,7 +12,7 @@ const container = (delay) => ({
   },
 });
 
-const TITLES = ["Software Developer"];
+const TITLES = ["Software Engineer"];
 
 const Home = () => {
   const [text, setText] = useState("");
