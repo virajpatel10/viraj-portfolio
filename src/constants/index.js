@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     technologies: ["Java", "React", "Apache Kafka", "RabbitMQ", "AWS Lambda", "AWS SQS"],
   },
   {
-    year: "Aug 2024 - Present",
+    year: "Aug 2024 - May 2025",
     role: "Graduate Assistant",
     company: "Syracuse University",
     description: `Leveraged expertise in Automata and Computing Theory to guide 50+ students, emphasizing algorithmic thinking and data analysis. Developed a performance analysis model identifying trends and providing actionable educational insights.`,
@@ -48,7 +48,7 @@ export const EXPERIENCES = [
   {
     year: "Jan 2021 - Dec 2022",
     role: "Software Engineer",
-    company: "CitiusTech",
+    company: "Mindtree",
     description: `Collaborated in Agile teams using Jira and Confluence to plan sprints, manage epics, and document system designs, contributing to a transparent and delivery-focused development culture.
                   Engineered backend services in Java using REST architecture to support key operations like audit trail logging, inventory updates, and financial reconciliation with strong data consistency guarantees.
                   Developed and maintained scalable backend services using Node.js and Express.js, enhancing application performance and reducing response time by 30%.
