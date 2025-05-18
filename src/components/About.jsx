@@ -38,8 +38,8 @@ const About = () => {
            {ABOUT_TEXT_3}
           </motion.p>
           <div className="flex space-x-4">
-            <a href="./Viraj_Resume_SDET.pdf" download="Viraj_Resume_SDET.pdf" className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in-out duration-300">
-              Software Developer Resume
+            <a href="./Viraj_Resume_SDE.pdf" download="Viraj_Resume_SDE.pdf" className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in-out duration-300">
+              Software Engineer Resume
             </a>
           </div>
         </div>
