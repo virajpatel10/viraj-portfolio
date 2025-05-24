@@ -13,20 +13,13 @@ export const EXPERIENCES = [
   {
     year: "Nov 2024 - Present",
     role: "Software Engineer",
-    company: " iConsult Syracuse",
-    description: `Spearheaded full-stack development initiatives using Java, and Microservices, delivering modular applications that scaled efficiently across cloud-hosted environments.
-                  Developed dynamic, user-centric front-end interfaces with Angular and React.js, integrating responsive layouts and real-time interactions to elevate user engagement across devices.
+    company: " HCL Tech",
+    description: `Achieved 99.9% uptime and seamless cloud scalability by architecting a modular Node.js microservices stack and containerizing services for automated deployments on AWS.
+                  Engineered responsive, real-time user interfaces using Angular and React.js, optimizing component performance and usability, resulting in a 25% increase in user engagement.
                   Implemented asynchronous data pipelines and service communication using Apache Kafka and RabbitMQ, increasing message throughput by 40% and reducing system response time by 30% for real-time operations.
                   Integrated event-driven architectures using AWS Lambda and SQS, enhancing system responsiveness and decoupling microservices for improved maintainability.
-                  Directed code reviews and test automation with JUnit, Mockito, and Jenkins pipelines, reducing bugs by 35% and ensuring production-readiness through consistent integration checks.`,
-    technologies: ["Java", "React", "Apache Kafka", "RabbitMQ", "AWS Lambda", "AWS SQS"],
-  },
-  {
-    year: "Aug 2024 - May 2025",
-    role: "Graduate Assistant",
-    company: "Syracuse University",
-    description: `Leveraged expertise in Automata and Computing Theory to guide 50+ students, emphasizing algorithmic thinking and data analysis. Developed a performance analysis model identifying trends and providing actionable educational insights.`,
-    technologies: ["Automata", "Computing Theory", "Data Analysis", "problem-solving", "Agile Methodology"],
+                  Collaborated with 5+ cross-functional teams throughout the end-to-end Software Development Life Cycle (SDLC), utilizing JIRA for Agile sprint management to deliver features ahead of schedule.`,
+    technologies: ["Node.js", "Express.js", "React", "Apache Kafka", "RabbitMQ", "AWS Lambda", "AWS SQS"],
   },
   {
     year: "Jan 2023 - Jul 2023",
@@ -39,22 +32,15 @@ export const EXPERIENCES = [
     technologies: ["SDLE", "Python", "Jira", "Confluence", "REST APIs", "Pandas", "Numpy" ,"Matplotlib", "Jupyter"],
   },
   {
-    year: "Jan 2022 - Dec 2022",
-    role: "Research Assistant",
-    company: "Nirma University",
-    description: `Built an Eye Gaze Estimation model using TensorFlow, Keras, and deep learning techniques, achieving 88% precision and reducing angular error to 3 degrees through model optimization.`,
-    technologies: ["Python", "TensorFlow", "Keras", "Deep Learning", "JavaScript"],
-  },
-  {
     year: "Jan 2021 - Dec 2022",
     role: "Software Engineer",
     company: "Mindtree",
-    description: `Collaborated in Agile teams using Jira and Confluence to plan sprints, manage epics, and document system designs, contributing to a transparent and delivery-focused development culture.
-                  Engineered backend services in Java using REST architecture to support key operations like audit trail logging, inventory updates, and financial reconciliation with strong data consistency guarantees.
-                  Developed and maintained scalable backend services using Node.js and Express.js, enhancing application performance and reducing response time by 30%.
-                  Leveraged AWS services like EC2, S3, Lambda, API Gateway, and DynamoDB to build and deploy cloud-native applications with high availability and fault tolerance.
-                  Streamlined backend logic with Servlet-based request handling and effective use of JSTL to separate business logic from view layers, improving maintainability and MVC compliance.`,
-    technologies: ["Java", "Node.JS", "Express.JS", "AWS", "AWS s3", "AWS Dynamodb", "AWS EC2", "AWS API Gateway"],
+    description: `Delivered audit logging, inventory updating, and financial reconciliation features, evidenced by zero data-consistency issues across monthly releases, by building Spring Boot REST APIs with full ACID compliance.
+                  Reduced API latency by 30 % by optimizing asynchronous processing and query handling in Spring Boot, improving overall user-perceived performance during peak loads.
+                  Ensured high availability for cloud-native workloads by orchestrating AWS EC2, S3, Lambda, API Gateway, and DynamoDB, eliminating single points of failure and enabling blue-green deployments.
+                  Streamlined backend logic with Servlet-based request handling and effective use of JSTL to separate business logic from view layers, improving maintainability and MVC compliance.
+                  Directed code review and test automation with JUnit, Mockito, and Jenkins pipelines, reducing bugs by 35% and ensuring production-readiness through consistent integration checks.`,
+    technologies: ["Java", "StringBoot", "AWS", "AWS s3", "AWS Dynamodb", "AWS EC2", "AWS API Gateway"],
   }
 ];
 
