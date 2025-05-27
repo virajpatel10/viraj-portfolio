@@ -11,7 +11,7 @@ export const ABOUT_TEXT_3 = `Outside of work, I enjoy exploring emerging technol
 
 export const EXPERIENCES = [
   {
-    year: "Nov 2024 - Present",
+    year: "Aug 2024 - Present",
     role: "Software Engineer",
     company: " HCL Tech",
     description: `Achieved 99.9% uptime and seamless cloud scalability by architecting a modular Node.js microservices stack and containerizing services for automated deployments on AWS.
