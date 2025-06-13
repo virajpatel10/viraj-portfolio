@@ -14,32 +14,33 @@ export const EXPERIENCES = [
     year: "Aug 2024 - Present",
     role: "Software Engineer",
     company: " HCL Tech",
-    description: `Achieved 99.9% uptime and seamless cloud scalability by architecting a modular Node.js microservices stack and containerizing services for automated deployments on AWS.
-                  Engineered responsive, real-time user interfaces using Angular and React.js, optimizing component performance and usability, resulting in a 25% increase in user engagement.
-                  Implemented asynchronous data pipelines and service communication using Apache Kafka and RabbitMQ, increasing message throughput by 40% and reducing system response time by 30% for real-time operations.
-                  Integrated event-driven architectures using AWS Lambda and SQS, enhancing system responsiveness and decoupling microservices for improved maintainability.
-                  Collaborated with 5+ cross-functional teams throughout the end-to-end Software Development Life Cycle (SDLC), utilizing JIRA for Agile sprint management to deliver features ahead of schedule.`,
-    technologies: ["Node.js", "Express.js", "React", "Apache Kafka", "RabbitMQ", "AWS Lambda", "AWS SQS"],
+    description: `Developed a microservices-based fraud detection system using Java, Spring Boot, and MySQL, building RESTful APIs to handle transaction logging and reconciliation, improving data integrity by 40% across monthly releases.
+                  Integrated LLMs with RAG (Retrieval-Augmented Generation) and built event-driven processing using Apache Kafka to analyze transactional patterns in real-time, improving fraud detection precision and reducing false positives by 22%.
+                  Orchestrated CI/CD pipelines using Docker to deploy microservices on AWS EC2, S3, Lambda, API Gateway, and RDS, enabling blue-green deployments, reducing downtime-related revenue loss, and decreasing query latency by 30%.
+                  Implemented Redis caching in Spring Boot services to reduce load on MySQL, offloading 70% of repetitive database queries and improving system scalability by lowering average response times by 35% during peak traffic.
+                  Directed test automation using JUnit, Mockito, and Jenkins pipelines, reducing production bugs by 35% and improving release stability through consistent integration and quality assurance.`,
+    technologies: ["Spring Boot", "Java", "AWS", "LLM", "RAG", "Apache kafka", "Redis"],
   },
   {
     year: "Jan 2023 - Jul 2023",
     role: "Software Engineer Intern",
     company: "Oracle",
-    description: `Built Python automation scripts to configure and test 30+ Jira/Confluence plugins, reducing repetitive manual tasks and increasing operational efficiency by 35%.
-                  Created and maintained 100+ Jira macros using custom JQL queries and version-controlled scripts, improving sprint planning accuracy and decreasing latency by 20%.
-                  Designed diagnostic scripts to audit plugin configurations and monitor system health, enabling early detection of misconfigurations and reducing QA manual checks by 30%.
-                  Implemented validation checks for 20 plugin features and embedded them in CI pipelines, identifying bugs pre-release and improving plugin uptime across production.`,
-    technologies: ["SDLE", "Python", "Jira", "Confluence", "REST APIs", "Pandas", "Numpy" ,"Matplotlib", "Jupyter"],
+    description: `Engineered a microservices-based transaction management module using Java, Spring Boot, and Hibernate ORM, enabling automated validation of transactional records and reducing manual reconciliation effort by 40%.
+                  Created RESTful APIs for transaction processing workflows, integrating Spring Security and JWT authentication to ensure secure access, supporting seamless user experiences across internal platforms.
+                  Optimized data access layers using Hibernate ORM, JPA criteria queries, and Redis caching, reducing query execution time from 7 seconds down to 3 seconds in high-volume transaction reporting modules.
+                  Deployed backend services on AWS EC2 with RDS for PostgreSQL, configuring monitoring and alerting via CloudWatch, resulting in a 15% improvement in system availability and reduced downtime for production transaction systems.
+                  Developed a centralized payment processing module with transaction retry and status tracking mechanisms, integrating with internal services via REST APIs, which improved reliability and reduced failed transactions by 30%.`,
+    technologies: ["Spring Boot", "Java", "Jira", "Confluence", "REST APIs", "SDLC", "Hibernate"],
   },
   {
     year: "Jan 2021 - Dec 2022",
     role: "Software Engineer",
     company: "Mindtree",
-    description: `Delivered audit logging, inventory updating, and financial reconciliation features, evidenced by zero data-consistency issues across monthly releases, by building Spring Boot REST APIs with full ACID compliance.
-                  Reduced API latency by 30 % by optimizing asynchronous processing and query handling in Spring Boot, improving overall user-perceived performance during peak loads.
-                  Ensured high availability for cloud-native workloads by orchestrating AWS EC2, S3, Lambda, API Gateway, and DynamoDB, eliminating single points of failure and enabling blue-green deployments.
-                  Streamlined backend logic with Servlet-based request handling and effective use of JSTL to separate business logic from view layers, improving maintainability and MVC compliance.
-                  Directed code review and test automation with JUnit, Mockito, and Jenkins pipelines, reducing bugs by 35% and ensuring production-readiness through consistent integration checks.`,
+    description: `Designed a microservices-based retail system using the MERN stack (MongoDB, Express.js, React, Node.js), containerized with Docker and deployed on AWS ECS, achieving 99.9% uptime and enabling seamless scalability for production workloads.
+                  Crafted UI components for a retail operations dashboard using React and Angular, optimizing rendering with efficient data structures to streamline interactions, increasing customer retention and engagement by 25%.
+                  Built asynchronous data pipelines within the inventory engine using Apache Kafka and RabbitMQ, improving message throughput by 40% and reducing system response time by 30%.
+                  Implemented event-driven workflows using AWS Lambda and SQS to handle inventory and order events, decouple microservices, and enhance maintainability and responsiveness during peak loads.
+                  Collaborated with 5+ cross-functional teams across the SDLC, utilizing JIRA for Agile sprint management to deliver product features ahead of schedule.`,
     technologies: ["Java", "StringBoot", "AWS", "AWS s3", "AWS Dynamodb", "AWS EC2", "AWS API Gateway"],
   }
 ];
